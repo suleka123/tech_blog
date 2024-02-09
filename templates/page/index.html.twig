@@ -8,11 +8,11 @@
 
 <h2>our latest post</h2>
 {% if posts %}
-    <ul>
+    <article>
         {% for post in posts %}
-            <li>{{ post.title }}</li>
+            <h3>{{ post.title }}</h3>
         {% endfor %}
-    </ul>
+    </article>
 {% endif %}
 
 
